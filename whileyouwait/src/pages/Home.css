@@ -1,0 +1,15 @@
+.hospital-grid {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 20px;        /* space between cards */
+  justify-content: center; /* optional: centers the cards */
+}
+
+.hospital-card {
+  flex: 1 1 300px;  /* grow, shrink, base width */
+  max-width: 400px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgb(201, 217, 251);
+}

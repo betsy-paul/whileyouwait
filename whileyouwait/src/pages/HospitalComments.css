@@ -1,0 +1,22 @@
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  background: #f0f4ff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.hospital-card {
+  background: #eaf4ff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  align-items: center;
+}
