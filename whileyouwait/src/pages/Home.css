@@ -5,11 +5,58 @@
   justify-content: center; /* optional: centers the cards */
 }
 
+.App {
+  background: linear-gradient(to bottom, #f4f9ff, #e7f3fd);
+  border-radius: 8px;
+  border: 8px solid #536284;
+}
+
 .hospital-card {
   flex: 1 1 300px;  /* grow, shrink, base width */
   max-width: 400px;
   border: 1px solid #ccc;
   padding: 16px;
   border-radius: 8px;
+  margin: 2em;
   background: rgb(201, 217, 251);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+}
+
+button {
+  background: linear-gradient(to right, #f4f9ff, #99a5ca);
+  border: 4px #344b7b;
+  margin: 0.4em;
+}
+select {
+  background: linear-gradient(to right, #f4f9ff, #99a5ca);
+  color: #004d80;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0.8em;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.search {
+  background: linear-gradient(to right, #f4f9ff, #99a5ca);
+  color: #004d80;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0.8em;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
 }

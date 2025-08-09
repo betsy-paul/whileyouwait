@@ -43,8 +43,8 @@ function Home() {
 
 return (
   <div>
-    <h1>Nearby Clinics & Hospitals</h1>
-    <h2> Location: Far Rockaway (<i>more locations coming soon!</i>)</h2>
+    <h1>Health Nearby </h1>
+    <h2> Current location: Far Rockaway (<i>more locations coming soon!</i>)</h2>
     <select value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
       <option value="newest">Newest First</option>
       <option value="oldest">Oldest First</option>
@@ -53,6 +53,7 @@ return (
     </select>
 
     <input
+      className='search'
       type="text"
       placeholder="Search hospitals..."
       value={searchTerm}

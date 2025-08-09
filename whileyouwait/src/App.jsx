@@ -34,8 +34,8 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Link to="/">🏥 Home</Link>
-        <Link to="/create">➕ Add Hospital</Link>
+        <Link to="/">🏥</Link>
+        <Link to="/create">➕</Link>
       </nav>
 
       {loading ? (

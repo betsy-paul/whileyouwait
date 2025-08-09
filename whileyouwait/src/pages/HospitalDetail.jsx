@@ -3,6 +3,7 @@ import supabase from '../client';
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import EditHospital from './EditHospital.jsx';
+import './Home.css';
 
 function HospitalDetail() {
   const { id } = useParams();
@@ -62,8 +63,8 @@ function HospitalDetail() {
       <p>Urgent Care: {hospital.urgent_care ? '✅' : '❌'}</p>
       <p>👍 Upvotes: {hospital.agree}</p>
       <p>👎 Downvotes: {hospital.disagree}</p>
-      <button onClick={handleUpvote}>👍 Upvote</button>
-      <button onClick={handleDownvote}>👎 Downvote</button>
+      <button onClick={handleUpvote}>👍</button>
+      <button onClick={handleDownvote}>👎</button>
       <p>Comments: {hospital.comments} </p>
       
      <Link to={`/hospital/${id}/edit`}>
